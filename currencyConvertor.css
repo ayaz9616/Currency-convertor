@@ -1,0 +1,177 @@
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    background-color: red;
+    padding: 100px;
+    border-radius: 50px;
+}
+.heading{
+    text-align: center;
+    background-color: aquamarine;
+    padding:10px;
+    border-radius: 50px;
+    margin-top: -20px;
+}
+
+form{
+    max-width: 700px;
+}
+.amtText,.resText{
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    width:220px
+}
+.amount{
+    display: flex;
+    gap:50px;
+    color:aquamarine;
+    font-size: large;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.amtInput{
+    font-size: large;
+    background-color: aquamarine;
+    border-radius: 50px;
+    text-align:center ;
+    border-width: 3px;
+    border-color: black;
+    height: 50px;
+    width:150px;
+}
+.from{
+    font-size: large;
+    width: 200px;
+    
+    border-radius: 50px;
+    text-align: center;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-color: black;
+    height: 50px;
+}
+
+.result{
+    display: flex;
+    gap:50px;
+    color:aquamarine;
+    font-size: large;
+    
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.amtOutput{
+    font-size: large;
+    background-color: aquamarine;
+    border-radius: 50px;
+    text-align:center ;
+    border-width: 3px;
+    border-color: black;
+    height: 50px;
+    width:150px;
+}
+.to{
+    font-size: large;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-color: black;
+}
+.Exicon{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.result img{
+    width:6rem;
+    height:4rem;
+    border:solid black 2px ;
+    
+}
+.amount img{
+    width:6rem;
+    height:4rem;
+    border:solid black 2px ;
+}
+/* button{
+    background-color: black;
+    color: aquamarine;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.rate{
+    
+    font-size: large;
+    background-color: aquamarine;
+    border-radius: 50px;
+    text-align:center ;
+    border-width: 3px;
+    border-color: black;
+    height: 50px;
+    width:150px;
+}
+.exchangeRate{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+} */
+.exchangeRate {
+    margin-top: 50px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-evenly;
+    /* Center the child elements horizontally */
+    align-items: center; /* Center the child elements vertically */
+    height: 100px; /* Adjust the height as needed */
+    border: darkblue;
+    border-width: 3px;
+    border-radius: 50px;
+}
+
+/* Rest of your CSS styles */
+button {
+    background-color: black;
+    color: aquamarine;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-size: medium;
+}
+button:hover{
+    
+    border:solid;
+    border-width: 3px;
+    border-color: red;
+}
+.rate {
+    font-size: large;
+    background-color: aquamarine;
+    border-radius: 50px;
+    text-align: center;
+    border: 3px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+}
